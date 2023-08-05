@@ -16,6 +16,8 @@ a{
 
 p {
   margin: 35px 0;
+  color: #000;
+  font-size: 1rem;
 }
 
 #Navbar{
@@ -26,7 +28,8 @@ p {
 }
 
   .logo {
-    margin: 0.75rem 7.5rem;
+    font-size: 1.5rem;
+    margin: 0.75rem 1.5rem;
     color: blue;
     }
 
@@ -34,21 +37,38 @@ p {
   display: flex;
   align-items: center;
   list-style: none;
-  font-size: 0.95rem;
+  font-size: 0.75rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 #Navbar ul li a{
-  /* color: #fff; */
   padding: 0.75rem;
   margin: 0 0.25rem;
   }
 
-  .showcase{
-  background: #333 url('./img/istockphoto-1205735467-612x612.jpg') no-repeat
+.showcase{ 
+  background: #333 url('./img/woman.jpg') no-repeat
   center center/cover;
-  height: 100vh;
+   height: 100vh; 
+   width: 100vw; 
   color: #fff;
-    margin: 4rem 7.5rem;
-    font-size: 20px;
+  display: inline-block;
+  opacity: 0.9;
   }
+
+  .showcase-header{
+    color: blue;
+  }
+
+  .showcase-content{
+    color: black;
+  }
+ 
+  .showcase .showcase-content{
+    margin: 4rem 1.5rem;
+    font-size: 20px;
+  } 
+
+
+
+ 

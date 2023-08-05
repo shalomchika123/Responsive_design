@@ -7,6 +7,7 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
+  font-size: 1.15rem;
 } 
 
 a{
@@ -14,7 +15,7 @@ a{
 }
 
 p {
-  margin: 0.75rem 0;
+  margin: 35px 0;
 }
 
 #Navbar{
@@ -25,6 +26,7 @@ p {
 }
 
   .logo {
+    margin: 0.75rem 7.5rem;
     color: blue;
     }
 
@@ -32,10 +34,21 @@ p {
   display: flex;
   align-items: center;
   list-style: none;
+  font-size: 0.95rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #Navbar ul li a{
   /* color: #fff; */
   padding: 0.75rem;
   margin: 0 0.25rem;
+  }
+
+  .showcase{
+  background: #333 url('./img/istockphoto-1205735467-612x612.jpg') no-repeat
+  center center/cover;
+  height: 100vh;
+  color: #fff;
+    margin: 4rem 7.5rem;
+    font-size: 20px;
   }

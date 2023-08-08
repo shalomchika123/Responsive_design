@@ -47,6 +47,12 @@ ul{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.search{
+  color: blue;
+  font-size: 1.25rem;
+  margin-left: 0.75rem;
+}
+
 #Navbar ul li a{
   padding: 0.75rem;
   margin: 0 0.25rem;
@@ -59,7 +65,7 @@ ul{
    width: 100vw; 
   color: #fff;
   display: inline-block;
-  opacity: 0.8;
+  opacity: 0.9;
   }
 
   .showcase-header{
@@ -75,6 +81,59 @@ ul{
     font-size: 20px;
   } 
 
+  .btn{
+    color: #fff;
+    background-color: rgb(25, 25, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 25px;
+  }
 
+  #what{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+  }
+
+  bg-light{
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 3rem 2rem;
+    overflow: hidden;
+  }
+
+  .m-heading{
+    text-align: center;
+  }
+
+  .what-content{
+    display: flex;
+    padding: 1rem;
+  }
+  .box-1{
+    flex: 1;
+    text-align: center;
+    margin: 3rem 0.5rem;
+    width: 900px;
+    height: 250px;
+    border: 1px solid white;
+    padding: 0.75rem 6rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+    
+
+.box-header{
+ margin-top: 13px;
+ margin-bottom: 25px;
+}
+ .box-paragraph{
+  margin: -0.5px 0px;
+ }
 
  

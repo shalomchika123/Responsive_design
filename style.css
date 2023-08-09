@@ -90,7 +90,7 @@ ul{
     border-radius: 25px;
   }
 
-  #what{
+  #Our{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
   }
@@ -153,9 +153,39 @@ ul{
         margin-left: 4rem;
       }
 
-      .About-img{
-        background: url('./img/man.jpg') no-repeat center center/cover; 
+      #About {
+        display: flex;
+        height: 400px;
+        overflow: hidden;
+        opacity: 0.85;
       }
+      
+      #About div {
+        flex: 1;
+      }
+
+        #About .About-img{
+        background: url(img/man.jpg) no-repeat center center/cover;
+        display: inline-block;
+      }
+
+      .About-header{
+        color: blue;
+      }
+
+      .p-2 { padding: 2rem; }
+      .m-2 { margin: 3rem 0;}
+     
+      .bg-lightblue{
+        background-color: lightblue;
+      }
+
+        #About .what-img{
+        background: url(img/pexels-marek-levak-2265482.jpg) no-repeat center center/cover;
+        display: inline-block;
+      }
+
+
 
      
      

@@ -154,7 +154,7 @@ ul{
       }
 
       .About-img{
-        background: url('') 
+        background: url('./img/man.jpg') no-repeat center center/cover; 
       }
 
      

@@ -295,11 +295,16 @@ ul{
       {
           line-height: 0;
           color: darkgrey;
+          margin-top: 3rem;
       }
 
   #Best-price  .btn-2{
-      margin-top: 8rem ;
+      margin-top: 3rem ;
+      
     }
      
-     
+    .About-header-2{
+      color: blue;
+    }
+
  

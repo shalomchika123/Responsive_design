@@ -267,8 +267,6 @@ ul{
              padding: 0rem;
                }
 
-     
-
       #Best-price .btn{
     color: #fff;
     background-color: rgb(25, 25, 235);
@@ -281,11 +279,39 @@ ul{
     text-align: center;
     margin-left: 6rem;
     }
+
+    .superscript {
+      vertical-align: super;
+      font-size: 20px;
+    }
     
-            
+    .lizzie{
+      color: #000;
+      font-size: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+  .box-paragraph-3
+      {
+          line-height: 0;
+          color: darkgrey;
+          margin: 2rem 0rem;
+      }
              
 
 
+      .btn-2{
+        color: #fff;
+        background-color: rgb(25, 25, 235);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        padding: 15px;
+        border-radius: 25px;
+        display: block; 
+       width: 150px;
+       text-align: center;
+       margin-top: 2rem;
+      }
      
      
  

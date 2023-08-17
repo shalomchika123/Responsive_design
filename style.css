@@ -331,6 +331,10 @@ ul{
           color: #333;
         }
 
+        #testimonials img
+        {
+            background-image: url(img/passport.jpg) no-repeat center center/cover;
+        }
  
 
 

@@ -8,6 +8,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
   font-size: 1.15rem;
+  opacity: 0.9;
 } 
 
 a{
@@ -299,16 +300,21 @@ ul{
       }
 
   #Best-price  .btn-2{
-      margin-top: 3rem ;
-      
+      margin-top: 3rem;
     }
      
+    #testimonials
+      {
+        text-align: center;
+      }
+
     .About-header-2
     {
       color: blue;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 0.75rem;
-
+      padding-bottom: 4rem;
     }
+
 
  

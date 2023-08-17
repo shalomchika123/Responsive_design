@@ -302,19 +302,26 @@ ul{
   #Best-price  .btn-2{
       margin-top: 3rem;
     }
-     
-    #testimonials
-      {
-        text-align: center;
-      }
 
+    .testimonial-header{
+      text-align: center;
+    }
+     
     .About-header-2
     {
       color: blue;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 0.75rem;
-      padding-bottom: 4rem;
+      font-size: 1rem;
+      margin-bottom: 5px;
     }
+
+    #testimonials h3
+      {
+        text-align: center;
+        font-size: 1.75rem;
+      }
+
+ 
 
 
  

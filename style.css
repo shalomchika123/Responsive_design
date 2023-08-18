@@ -309,7 +309,7 @@ ul{
      
    #testimonials .about-heading
     {
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
 
     .About-header-2
@@ -328,18 +328,19 @@ ul{
 
   #testimonials .comma
         {
-            padding-top: 4rem;
+            margin-top: 4rem;
             color: #2c2cec;
-            font-size: 3rem;
+            font-size: 4rem;
         }
       
         .testimonial-p{
-          color: #333;
+          color: 	#C0C0C0;
+          margin-top: -4rem;
         }
 
-        #testimonials img
+        #testimonials .img
         {
-            background-image: url(img/passport.jpg) no-repeat center center/cover;
+            background: url(img/man.jpg) no-repeat center center/cover;
         }
  
 

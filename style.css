@@ -341,11 +341,13 @@ ul{
         .testimonial-img {
           background: url(img/passport.jpg);
           display: inline-block;
-          width: 100px; /* Adjust the width and height according to your design */
+           width: 100px; 
           height: 100px;
-          background-size: cover;
+          background-size: contain;
           background-position: center;
-          border-radius: 50%; /* To make it circular if needed */
+          border-bottom-left-radius: 100%;
+          border-bottom-right-radius:100%;
+           /* To make it circular if needed */
           /* Other styling properties as needed */
         }
  
